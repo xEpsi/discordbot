@@ -1,0 +1,5 @@
+git+https://github.com/Rapptz/discord.py
+dnspython==1.16.0
+
+git+https://github.com/ytdl-org/youtube-dl
+dnspython==1.16.0

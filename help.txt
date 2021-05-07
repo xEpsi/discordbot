@@ -1,0 +1,40 @@
+List of available commands: (no need for [brackets])
+
+
+**Normal commands:**
+
+`;invite`: sends the invite link to invite the bot to your server. (Aliases: `;addbot`)
+
+`;repeat [text]`: repeats the [text] sent by the user. :parrot:
+
+`;decide [text]`: chooses a random answer to the question asked by user. DO NOT TAKE THIS ADVICE SERIOUSLY. (Aliases: `;8ball [text]`, `;8b [text]`)
+
+`;boldtext [text]`: turns the [text] into bold text. (Aliases: `;thicctext`)
+
+`;smalltext [text]`: turns the [text] into small text. (Aliases: `;smallcaps`)
+
+`;serverinfo`: shows info about the server this command is sent in such as member count, number of text channels, etc... (Aliases: `;si`)
+
+`;beemovie`: [SPAM WARNING] literally sends a portion of the Bee Movie's script. :bee: (Still around 14K characters, though.) (Aliases: `;beemoviescript`)
+
+`;yo`: just says yo. what did you expect?
+
+`;help`: shows this help menu. (Aliases: `;cmds`)
+
+`;banlist`: displays the banned users list.
+
+`;cook`: "cooks" the dish chosen by user.
+
+**Music commands:**
+
+`;play [youtube url]`: Plays a song in the VC you're in. Note you can send multiple songs to the queue. (Only works with youtube.) (Alias: `;p`)
+
+`;pause`: Pauses the current playing song if it's playing.
+
+`;resume`: Resumes the current playing song if it's paused.
+
+`;skip`: Skips the current playing song and plays the next song in the queue. If there is no next song, the bot will leave the VC. (Alias: `;s`)
+
+`;leave`: Makes the bot leave the VC.
+
+*More commmands coming soon :incoming_envelope:*
