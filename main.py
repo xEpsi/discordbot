@@ -15,7 +15,7 @@ def get_prefix(bot, ctx):
 ytdl = youtube_dl.YoutubeDL()
 musics = {}
 bot = commands.Bot(command_prefix = get_prefix, description = "Epsi's trash python bot", case_insensitive=True)
-statuslist = [";help", "Use ;invite to invite me to your server!", "Ping me if you forgot my prefix!", "DM epsi#3939 if the bot isn't working"]
+statuslist = [";help", "Use ;invite to invite me to your server!", "Ping me if you forgot my prefix!", "DM Epsi#0001 if the bot isn't working"]
 
 @bot.remove_command('help')
 
@@ -139,7 +139,7 @@ async def status():
     game = discord.Game(random.choice(statuslist))
     await bot.change_presence(status = discord.Status.online, activity = game)
 
-#@bot.command()
+#@bot.command()                              <- This command isn't working i'll eventually fix it
 #async def changestatus(ctx, *args):
 #    customstatus = "discord.Status." + str(args)
 #    await bot.change_presence(status = customstatus, activity = game)
@@ -277,23 +277,6 @@ async def bruh(ctx):
     print("someone said bruh")
     await ctx.send("https://tenor.com/view/bruh-bye-ciao-gif-5156041")
 
-#Gay command
-@bot.command()
-async def gay(ctx):
-    gaymeter1 = str("You are " + str(random.randint(0,100)))
-    gaymeter2 = str("%")
-    gaymeter3 = str(" gay. :rainbow_flag:")
-    await ctx.send(gaymeter1 + gaymeter2 + gaymeter3)
-    print("someone is gay")
-@bot.command()
-async def howgay(ctx):
-    gaymeter1 = str("You are " + str(random.randint(0,100)))
-    gaymeter2 = str("%")
-    gaymeter3 = str(" gay. :rainbow_flag:")
-    print("someone is gay")
-    await ctx.send(gaymeter1 + gaymeter2 + gaymeter3)
-
-
 
 #Gamer command
 @bot.command()
@@ -337,22 +320,6 @@ async def invite(ctx):
 async def addbot(ctx):
     print("someone asked for invite link")
     await ctx.send("Here is the invite link for this bot: https://discord.com/api/oauth2/authorize?client_id=780944129202061372&permissions=205385415&scope=bot")
-
-#KHD8 command
-#@bot.command()
-#async def KHD8(ctx):
-#    await ctx.send("What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little ''clever'' comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.")
-
-
-#Pepsi command by KHD8
-#@bot.event
-#async def on_message(message):
-#    if 'pepsi bot' in message.content:
-#        bot.process_commands(message)
-#        print('someone wants death')
-#        member = message.author
-#        channel = await member.create_dm()
-#        await channel.send("fuck you")
 
 #Repeat command
 @bot.command()
@@ -683,4 +650,4 @@ async def shutdown(ctx, *args):
     await ctx.channel.send("Shutting down...")
     await bot.logout()
 
-bot.run("NzgwOTQ0MTI5MjAyMDYxMzcy.X72c5Q.ovKxrRsE9XJXDTEUe1XNBhcg55Y")
+bot.run("Nope you won't get my token")
