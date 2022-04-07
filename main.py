@@ -7,6 +7,8 @@ import random
 import youtube_dl
 import json
 
+token = "YOUR TOKEN"
+
 def get_prefix(bot, ctx):
     with open('prefixes.json', 'r') as f:
         prefixes = json.load(f)
@@ -650,4 +652,4 @@ async def shutdown(ctx, *args):
     await ctx.channel.send("Shutting down...")
     await bot.logout()
 
-bot.run("Nope you won't get my token")
+bot.run(token)
